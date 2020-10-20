@@ -7,8 +7,12 @@ export default () => (
   <>
     <Head>
       <html lang="en" />
-      <title>Next POC</title>
+      <title>Next POC {process.env.ASSET_PREFIX}</title>
       <meta property="og:title" content="Next POC" key="title" />
+      <link
+        rel="stylesheet"
+        href={`${process.env.ASSET_PREFIX}/_next/static/css/styles.chunk.css`}
+      />
     </Head>
     <Header />
     <h1>Home</h1>

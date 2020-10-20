@@ -1,4 +1,4 @@
-import './index.css';
+import './Footer.module.css';
 import data from '../../data/data.json'
 
 const Footer = props => (

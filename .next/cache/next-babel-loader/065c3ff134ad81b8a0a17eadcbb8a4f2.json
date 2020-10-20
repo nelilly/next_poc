@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport './Footer.module.css';\nimport data from '../../data/data.json';\n\nconst Footer = props => __jsx(\"footer\", null, __jsx(\"h2\", null, \"Footer Content\"), __jsx(\"p\", null, \"\\xA92020\"));\n\nexport default Footer;","map":null,"metadata":{},"sourceType":"module"}
