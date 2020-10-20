@@ -11,12 +11,14 @@ export default () => (
     <meta property="og:title" content="Next POC Projects" key="title" />
   </Head>
     <Header />
-    <h1>Projects!!!</h1>
-    <ul>
-      <li>Projects!</li>
-      <li>Projects!</li>
-      <li>Projects!</li>
-    </ul>
+    <main>
+      <h1>Projects!!!</h1>
+      <ul>
+        <li>Projects!</li>
+        <li>Projects!</li>
+        <li>Projects!</li>
+      </ul>
+    </main>
     <Footer />
   </>
 );
