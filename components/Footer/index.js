@@ -1,9 +1,8 @@
-import './Footer.module.css';
 import data from '../../data/data.json'
 
 const Footer = props => (
   <footer>
-    <h2>Footer Content</h2>
+    <h2>{data[0].footer}</h2>
     <p>&copy;2020</p>
   </footer>
 );

@@ -1,4 +1,3 @@
-import './Header.module.css';
 import Nav from '../Nav/'
 import data from '../../data/data.json'
 

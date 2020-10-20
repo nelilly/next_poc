@@ -1,21 +1,24 @@
-header {
-  border: 3px solid #ccc;
-  padding: 1rem;
-}
-nav {
-  border: 3px solid #ccc;
-  padding: 1rem;
-}
-footer {
-  border: 3px solid #ccc;
-  padding: 1rem;
-}
 body {
   background-color: #e4e4e4;
   font-family: sans-serif;
 }
 
 main {
+  border: 3px solid #ccc;
+  padding: 1rem;
+}
+
+header {
+  border: 3px solid #ccc;
+  padding: 1rem;
+}
+
+nav {
+  border: 3px solid #ccc;
+  padding: 1rem;
+}
+
+footer {
   border: 3px solid #ccc;
   padding: 1rem;
 }

@@ -7,3 +7,18 @@ main {
   border: 3px solid #ccc;
   padding: 1rem;
 }
+
+header {
+  border: 3px solid #ccc;
+  padding: 1rem;
+}
+
+nav {
+  border: 3px solid #ccc;
+  padding: 1rem;
+}
+
+footer {
+  border: 3px solid #ccc;
+  padding: 1rem;
+}

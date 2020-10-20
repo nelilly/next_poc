@@ -1,18 +1,16 @@
 import Head from 'next/head';
-import Header from '../components/Header/';
-import Footer from '../components/Footer/';
 import './index.css';
+import data from '../data/home.json'
 
-export default () => (
+const Home = () => (
   <>
     <Head>
-      <html lang="en" />
-      <title>Next POC {process.env.ASSET_PREFIX}</title>
+      <title>Next POC {data.title}</title>
       <meta property="og:title" content="Next POC" key="title" />
     </Head>
-    <Header />
     <main>
-      <h1>Home</h1>
+      <h1>{data.title}</h1>
+      <p>{data.description}</p>
       <ul>
         <li>Home content</li>
         <li>Featured Projects</li>
@@ -20,6 +18,7 @@ export default () => (
         <li>ETC...</li>
       </ul>
     </main>
-    <Footer />
   </>
 );
+
+export default Home;

@@ -1,5 +1,3 @@
-import './Nav.module.css';
-
 const Nav = props => (
   <nav>
     <ul>
