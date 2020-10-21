@@ -1,4 +1,4 @@
-const Nav = props => (
+export const Nav = props => (
   <nav>
     <ul>
       <li><a href={`${process.env.ASSET_PREFIX}/`}>Home</a></li>
@@ -6,5 +6,3 @@ const Nav = props => (
     </ul>
   </nav>
 );
-
-export default Nav;

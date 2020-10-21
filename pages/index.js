@@ -2,7 +2,7 @@ import Head from 'next/head';
 import './index.css';
 import data from '../data/home.json'
 
-const Home = () => (
+export const Home = () => (
   <>
     <Head>
       <title>Next POC {data.title}</title>

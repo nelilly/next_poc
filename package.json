@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next -p 3001",
-    "build": "next build && next export -o docs && touch docs/.nojekyll && git add . && git commit -m \"Deploy docs\" && git push origin main",
+    "deploy": "next build && next export -o docs && touch docs/.nojekyll && git add . && git commit -m \"Deploy docs\" && git push origin main",
+    "build": "next build && next export -o docs",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
