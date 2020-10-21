@@ -1,8 +1,8 @@
-import data from '../../data/data.json'
+import data from '../../data/layout.json'
 
 export const Footer = props => (
   <footer>
-    <h2>{data[0].footer}</h2>
-    <p>&copy;2020</p>
+    <h2>{data.footer}</h2>
+    <p>&copy;{data.copyright}</p>
   </footer>
 );
